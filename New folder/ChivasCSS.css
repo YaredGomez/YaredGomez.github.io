@@ -1,0 +1,231 @@
+body {
+	background-color: #8D918D;
+	color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-color: #002171;
+	text-align: center;
+	height: 120px;
+	padding-top: 30px;
+	padding-left: 3em;
+}
+
+
+header a {
+	text-decoration: none;
+}
+
+header a:link {
+	color: #FFFFFF;
+}
+
+header a:visited {
+	color: #FFFFFF;
+}
+
+header a:hover {
+	color: #8b0000;
+}
+
+nav {
+	font-size: 102%;
+	font-weight: bold; 
+	padding: 1.4em;
+	float: left;
+	width: 100px; 
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.16em;
+}
+
+nav a:link{
+	color: #880808;
+}
+
+nav a:visited{
+	color: #880808;
+}
+
+nav a:hover{
+	color: #ff0000;
+}
+
+
+nav a {
+	text-decoration: none;
+}
+
+h2 {
+	color: #8b0000;
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 1px 1px 1px #cccccc;
+}
+
+dt {
+	color: #002171;
+}
+
+.rojiblanco {
+	color: #8b0000;
+	font-weight: bold;
+}
+
+h1 {
+	margin-bottom: 0;
+	margin-top: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 3em;
+	letter-spacing: 0.25em;
+}
+
+h3 {
+	font-family: Georgia, "Times New Roman", serif; 
+	color: #000033;
+}
+
+footer {
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 2em;
+	margin-left: 190px;
+	background-color: #FFFFFF;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+#wrapper {
+	margin-left: auto; 
+	margin-right: auto;
+	width: 80%; 
+	background-color: #90C7E3;
+	min-width: 960px;
+	max-width: 2048px;
+	box-shadow: 3px 3px 3px #000033;
+	background-image: linear-gradient(to bottom, #ffffff, #ff0000);
+	border: 2px solid #000033;
+}
+
+#wrapper2 {
+	margin-left: auto; 
+	margin-right: auto;
+	width: 0%; 
+	background-color: #90C7E3;
+	min-width: 960px;
+	max-width: 2048px;
+	box-shadow: 3px 3px 3px #000033;
+	background-image: linear-gradient(to bottom, #ffffff, #ff0000);
+	border: 2px solid #000033;
+}
+
+main {
+	padding: 1px 20px 20px 30px;
+	display: block;
+	background-color: #FFFFFF;
+	margin-left: 190px;
+	overflow: auto;
+	
+	flex: none;
+	min-width: 20em;
+	background-color: #FFFFFF; 
+	order: 1;
+}
+
+main ul {
+	list-style-image: url(marker.gif);
+}
+
+#chivahero {
+	height: 300px;
+	background-image:  url(chivascampeon.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#abouthero {
+	height: 300px;
+	background-image:  url(firstchivasteam.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.box div {
+  width: 300px;
+  height: 300px;
+  background-color:#880808;
+  justify-content: right;
+}
+
+.gallery { 
+  background-image:  url(america.png);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gallery2 { 
+  background-image:  url(atlasfc.png);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+hr { 
+	border-width: 2px;
+	border-style: solid;
+}
+
+p2 {
+	font-size: 102%;
+	font-weight: bold; 
+	padding: 1.4em;
+}
+
+table {
+	border: 2px solid #3399CC;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td, th {
+	padding: 0.5em;
+	border: 2px solid #3399CC;
+}
+
+td {
+	text-align: center;
+}
+
+.text {
+	text-align: left;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #BDDFF0;
+}
+
+#special {
+	clear:both;
+}
